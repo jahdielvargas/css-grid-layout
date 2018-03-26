@@ -17,3 +17,5 @@
 ## Vamos al codigo
 
 `display: grid` asignamos la grid a nuestro contenedor padre.
+
+`grid-template-columns: parametros` definimos el ancho de cada una de las columnas (separados por espacios), el cual definira nuestro número de columnas.
