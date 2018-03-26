@@ -14,8 +14,13 @@
 
 * **Grid Area:** Espacio contenido por una cuadrícula de celdas
 
+* **Grid explicito (explicit grid):** es cuando nosotros definimos el numero de filas o columnas.
+* **Grid implicito (implicit grid):** es cuando tenemos filas o columnas que no definimos pero son parte de nuestro grid.
+
 ## Vamos al codigo
 
 `display: grid` asignamos la grid a nuestro contenedor padre.
 
 `grid-template-columns: parametros` definimos el ancho de cada una de las columnas (separados por espacios), el cual definira nuestro número de columnas.
+
+`grid-template-rows: parametros` definimos el alto de cada unas de las filas (separados por espacios).
