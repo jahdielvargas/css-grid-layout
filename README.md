@@ -15,7 +15,10 @@
 * **Grid Area:** Espacio contenido por una cuadrícula de celdas
 
 * **Grid explicito (explicit grid):** es cuando nosotros definimos el numero de filas o columnas.
+
 * **Grid implicito (implicit grid):** es cuando tenemos filas o columnas que no definimos pero son parte de nuestro grid.
+
+* **Unidad de medida:** fracciones **(fr)** distribuye el espacio disponible en formas iguales.
 
 ## Vamos al codigo
 
@@ -37,3 +40,10 @@
 `grid-row-gap: value` Espaciado entre filas.
 
 `grid-gap: filas columnas` Espaciado.
+
+
+### Funciones:
+
+* `repeat(cantidad, valor)` para usar el mismo valor varias veces.  
+
+* `minmax(min, max)` agregar un valor minimo y maximo para el tamaño al hacer responsive.
