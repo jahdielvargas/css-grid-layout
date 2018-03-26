@@ -31,3 +31,9 @@
 **No disponible aun**.
 
 `display: inline-grid` muestra el grid en una sola linea. **No disponible aun**.
+
+`grid-column-gap: valor`Espaciado entre columnas.
+
+`grid-row-gap: value` Espaciado entre filas.
+
+`grid-gap: filas columnas` Espaciado.
