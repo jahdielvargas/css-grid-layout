@@ -24,3 +24,5 @@
 `grid-template-columns: parametros` definimos el ancho de cada una de las columnas (separados por espacios), el cual definira nuestro número de columnas.
 
 `grid-template-rows: parametros` definimos el alto de cada unas de las filas (separados por espacios).
+
+`grid-template: filas / columnas` mediante esta propiedad podemos definir filas y columnas de una manera reducida.
