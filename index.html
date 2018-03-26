@@ -18,6 +18,17 @@
         padding: 10px;
         border: 1px solid red;
       }
+      .item:nth-of-type(4){
+        background: blue;
+        overflow: auto;
+        /* display: subgrid;  No esta disponible aun*/
+        /* display: inline-grid; No esta disponible aun*/
+        display: grid;
+        grid-template: 50px 50px 50px / 80px 80px 80px;
+      }
+      .item .item{
+        background: yellow;
+      }
     </style>
   </head>
   <body>
@@ -25,7 +36,13 @@
         <div class="item">contenido #1</div>
         <div class="item">contenido #2</div>
         <div class="item">contenido #3</div>
-        <div class="item">contenido #4</div>
+        <div class="item">
+          <div class="item">subitem #1</div>
+          <div class="item">subitem #2</div>
+          <div class="item">subitem #3</div>
+          <div class="item">subitem #4</div>
+          <div class="item">subitem #5</div>
+        </div>
         <div class="item">contenido #5</div>
         <div class="item">contenido #6</div>
         <div class="item">contenido #7</div>

@@ -26,3 +26,8 @@
 `grid-template-rows: parametros` definimos el alto de cada unas de las filas (separados por espacios).
 
 `grid-template: filas / columnas` mediante esta propiedad podemos definir filas y columnas de una manera reducida.
+
+`display: subgrid` hereda la configuración del grid padre (cuando se esten anidando grids).
+**No disponible aun**.
+
+`display: inline-grid` muestra el grid en una sola linea. **No disponible aun**.
