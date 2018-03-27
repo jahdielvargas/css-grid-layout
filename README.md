@@ -57,6 +57,14 @@ Para escribir esto en una sola linea:
 
 estas propiedades se rigen por las lineas del Grid, pero añadiendo `span` lo tomara por espacios.
 
+**Para definir el tamaño de las filas dentro de un grid usamos:**
+
+`grid-row-start: valor` donde empieza el elemento.
+
+`grid-row-end: valor` donde termina el elemento.
+
+para escribir esto en una sola linea usamos `grid-row: inicio / final`
+
 ### Funciones:
 
 * `repeat(cantidad, valor)` para usar el mismo valor varias veces.  
