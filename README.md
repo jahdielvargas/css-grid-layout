@@ -41,6 +41,7 @@
 
 `grid-gap: filas columnas` Espaciado.
 
+`grid-template-areas: "contenido"` definimos las areas de nuestro grid, se encierran en comillas cada una de las columnas que contiene una fila. Para usar estas areas debemos asignarle a cada elemento un area con la propiedad `grid-area: contenido`. 
 
 ### Funciones:
 
