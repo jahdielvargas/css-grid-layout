@@ -68,6 +68,20 @@ para escribir esto en una sola linea usamos `grid-row: inicio / final`
 **Para definir el nombre de las lineas debemos colocar los nombres en corchetes y en medio de cada una de las medidas.
 Ejemplo: `grid-template-rows: [start] 1fr [middle] 1fr [end];`**
 
+**Manejando el grid implícito**
+
+Para cambiar el flujo automático de mi grid:
+
+`grid-auto-flow: column;`
+
+Por defecto viene `grid-auto-flow: row;`
+
+Para asignar el valor por defecto de el espacio de las columnas o filas que no han sido asignadas:
+
+`grid-auto-columns: valores;`
+
+`grid-auto-rows: valores;`
+
 ### Funciones:
 
 * `repeat(cantidad, valor)` para usar el mismo valor varias veces.  
