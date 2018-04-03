@@ -82,6 +82,22 @@ Para asignar el valor por defecto de el espacio de las columnas o filas que no h
 
 `grid-auto-rows: valores;`
 
+**Para alinear contenido:**
+
+`justify-items: valor; ` para alineación horizontal
+
+`align-items: valor;` para alineación vertical
+
+Los valores que toman por defecto es stretch el cual hace que tomen todo el valor asignado en la fila o columna.
+
+**Valores: start | end | center | stretch.**
+
+Para asignar la alineación de un solo elemento podemos usar:
+
+`align-self: valor;`
+
+`justify-self: valor;`
+
 ### Funciones:
 
 * `repeat(cantidad, valor)` para usar el mismo valor varias veces.  
