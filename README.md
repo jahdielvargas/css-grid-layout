@@ -65,6 +65,9 @@ estas propiedades se rigen por las lineas del Grid, pero añadiendo `span` lo to
 
 para escribir esto en una sola linea usamos `grid-row: inicio / final`
 
+**Para definir el nombre de las lineas debemos colocar los nombres en corchetes y en medio de cada una de las medidas.
+Ejemplo: `grid-template-rows: [start] 1fr [middle] 1fr [end];`**
+
 ### Funciones:
 
 * `repeat(cantidad, valor)` para usar el mismo valor varias veces.  
