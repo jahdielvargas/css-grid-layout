@@ -98,6 +98,13 @@ Para asignar la alineación de un solo elemento podemos usar:
 
 `justify-self: valor;`
 
+**Para alinear el contenido de filas y columnas:**
+
+justify-content: valor;
+align-content: valor;
+
+**Valores: start | end | center | stretch | space-around | space-between | space-evenly.**
+
 ### Funciones:
 
 * `repeat(cantidad, valor)` para usar el mismo valor varias veces.  
